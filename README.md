@@ -41,4 +41,5 @@ bootcamp !
 
 # Setup:
 
-To run this project,install it locally and install AMMPS(MySQL) include example data into project.
+- To run this project,install it locally and install AMMPS(MySQL) include example data into project.
+- Import tourism_agency.txt file by converting it to tourism_agency.sql.
