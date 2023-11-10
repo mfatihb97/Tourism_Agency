@@ -55,11 +55,11 @@ public class HotelRegistrationGUI extends JFrame{
                 String region = field_add_region.getText();
                 if (Hotel.add(name,city,region,adress,email,phone,star) ){
                     Helper.showMsg("add");
+                    dispose();
                 }else {
                     Helper.showMsg("error");
                 }
             }
-            dispose();
         });
         button_exit_hotel_reg.addActionListener(e -> dispose());
     }
